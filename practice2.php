@@ -1,9 +1,9 @@
 <?php
-$name = shiho;
+$name = "shiho";
 /* Q1 $name があなたの名前だったら 「私は shiho です」、
 もし違ったら「shihoではありません」と表示
 */
-if ($name = shiho){
+if ($name == "ann"){
   echo "私は　shiho　です";
 } else {
   echo "shihoではありません";
@@ -24,8 +24,8 @@ echo $total;
 <?php
 // Q3 $fruits に配列で好きなフルーツを5個代入し、foreach文で順番に出力
 $fruits = array("apple","orange","banana","grape","peach");
-foreach ($fruits as $fruits){
-  echo "好きなフルーツは" . $fruits;
+foreach ($fruits as $fruit){
+  echo "好きなフルーツは" . $fruit;
   echo "\n";
 }
 
@@ -43,5 +43,6 @@ foreach ($fruits as $fruits){
    // 5で割り切れたら{}内を実行する
    if ($i % 5 == 0)
      echo $i;
+     echo "\n";
    }
   ?>
